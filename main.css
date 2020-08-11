@@ -1,0 +1,46 @@
+.nav-bar{
+    list-style: none;
+}
+
+.nav-bar span{
+    padding-right: 10px;
+}
+
+.left{
+    flex-flow: column-reverse;
+}
+
+.right{
+    flex-flow: column-reverse;
+}
+
+#nav-google{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#search-input
+{
+    border-radius: 25px;
+    border-style: 10px solid black !important;
+    min-width:600px;
+    min-height: 40px;
+    margin-bottom: 30px;
+}
+
+#search-part{
+   padding-top: 100px;
+   text-align: center;
+}
+
+.search-btn{
+    border-color: transparent;
+    border-radius: 5px;
+    padding:10px;
+    margin-right: 5px;;
+}
+
+#google-logo{
+    margin-bottom: 32px;
+}
